@@ -142,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = D4096F761A52FCEC005C037A;
@@ -212,6 +213,7 @@
 				INFOPLIST_FILE = "IOElectrify/Supporting Files/Info.plist";
 				MODULE_NAME = org.darkvoid.driver.IOElectrify;
 				PRODUCT_NAME = IOElectrify;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Debug;
@@ -223,6 +225,7 @@
 				INFOPLIST_FILE = "IOElectrify/Supporting Files/Info.plist";
 				MODULE_NAME = org.darkvoid.driver.IOElectrify;
 				PRODUCT_NAME = IOElectrify;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Release;
